@@ -753,8 +753,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #583e3e;
     padding: 40px 40px 40px 40px;
+    border-radius: 25px;
 }
 
 .bold-link {
@@ -771,20 +772,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #555;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #555;
     color: #FFFFFF!important;
+    opacity: 1;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #c#81303027956!important;
     color: #FFFFFF!important;
 }
 
@@ -1027,7 +1029,19 @@ h4 {
         height: 320px;
     }
 }
-
+.txt-services {
+    font-size: 2rem;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+.txt-services-under{
+    font-size: 1.3rem;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
