@@ -1035,6 +1035,9 @@ h4 {
     padding: 0;
     margin: 0;
 }
+.txt-realisations{
+    font-size: 2.3rem;
+}
 .txt-services-under{
     font-size: 1.3rem;
 }
@@ -1042,13 +1045,30 @@ a:hover{
     transform: scale(1.1);
     transition: 210ms;
 }
+.font-contact{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.txt-contact{
+    font-size: 1.4rem;
+}
+.center-contact{
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
-
+@media (max-width: 560px){
+    .black-background{
+        padding: 40px 0px 40px 0px;
+    }
+}
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
