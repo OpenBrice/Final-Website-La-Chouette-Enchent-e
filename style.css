@@ -702,6 +702,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -1058,6 +1060,10 @@ a:hover{
     display: flex;
     justify-content: center;
 }
+#mailto{
+    color: white;
+    text-decoration: none;
+    }
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
