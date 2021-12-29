@@ -1040,7 +1040,7 @@ h4 {
 }
 a:hover{
     transform: scale(1.1);
-    transition: 200ms;
+    transition: 210ms;
 }
 @media (max-width: 400px) {
     .bloc {
