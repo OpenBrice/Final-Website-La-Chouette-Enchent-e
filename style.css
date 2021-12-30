@@ -704,6 +704,7 @@ p {
     margin: auto auto auto auto;
     display: flex;
     justify-content: center;
+    gap: 2rem;
 }
 
 h2 {
